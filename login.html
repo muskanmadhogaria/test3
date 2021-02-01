@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body{
+                margin:0 auto;
+                
+            }
+       
+        fieldset
+        {
+            border:3px solid black;
+            
+        }
+        body{
+            font-family: 'Anaheim';
+            font-size: 1.2em;
+            background-color: lightgoldenrodyellow;
+            margin:10px;
+        }
+     #loginpage{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 25px;
+            padding-right: 25px;
+         
+        }
+        #login{
+            width:170px;
+            border:2px solid black;
+        }
+       #forgotpassword:hover{
+        color:red;
+       }
+       #logo{
+                width:50px;
+                height:50px;
+                border-radius: 50%;
+            }
+        #first{
+            text-align: justify;
+        }
+        #heading{
+                color:black;
+                font-size:30px;
+               
+            }
+            #home{
+                width:60px;
+                text-align: center;
+            }
+            #Hometag{
+                text-decoration: none;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+       
+        <table width="100%" id="first">
+            <tr>
+                <td width="20%"><img src="tusn.jfif" id="logo" alt="logo"></td>
+                <td width="50%"><h1 id="heading" style="font-size:19px;">COVID-19 VACCINE</h1></td>
+                <td width="30%" style="text-align: justify;"><button id="Home"><a href="covidvaccine.html" id="Hometag">Home</a></button></td>
+            </tr>
+        </table>
+        <hr style="height: 2px;background-color:black;">
+            <div id="loginpage">
+                <center>
+            <form>
+                <fieldset>
+                    <div id="inside">
+                    <h2 style="color:blue"><marquee>Login</marquee></h2>
+                    <label for="Email" id="Email-add">Email: </label>
+                    <input type="text" id="Email" placeholder="enter your Email" required><br><br>
+                    <label for="password" id="password-add">Password:</label>
+                    <input type="password" id="password" placeholder="enter your Password">
+                   <br><br><button id="login">Login</button>
+                   <br>
+                  <p id="forgotpassword"><u>forgot password?</u></p>
+                   <p>Dont't have a Account?click here to <a href="signup.html"> Register</a></p>
+                   
+
+        </div>
+                </fieldset>
+
+            </form>
+        </center>
+        </div>
+    
+    </body>
+    
+    <script type="text/javascript">
+        document.getElementById('forgotpassword').onclick=function(){
+            prompt("Enter your email:");
+        }
+    
+    </script>
+</html

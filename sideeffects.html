@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Side Effects</title>
+        <style>
+      
+            
+            body{
+            font-family: 'Anaheim';
+            font-size: 1.2em;
+            background-color:lightgray;
+            margin: 15px;
+            padding:5px;
+            }
+            #home{
+                text-decoration: none;
+            }
+            #newsbox{
+                width:100%;
+                height: 550px;
+                background-color: bisque;
+                border-bottom-left-radius: 5%;
+                border-bottom-right-radius: 5%;
+                border-top-left-radius: 5%;
+                border-top-right-radius: 5%;
+                padding:10px;
+                font-weight: 700;
+                font-family: "poiret one";
+                letter-spacing: 3px;
+                
+            }
+            #homebutt{
+                width:70px;
+                height: 30px;
+
+            }
+            #homebutt:hover{
+                background-color: red;
+            }
+                
+            #twit{
+                width:50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            #newslogo{
+                width:50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            #frame{
+                border-bottom-left-radius: 5%;
+                border-bottom-right-radius: 5%;
+                border-top-left-radius: 5%;
+                border-top-right-radius: 5%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>COVID-19:Risks and side effects of vaccination</h1>
+        <table width="100%">
+        <tr>
+            <td width="80%">
+        <button type="button" onclick="myfunction()">SHOW DATE</button>
+        <p id="showDate"></p>
+        </td>
+        <td width="20%">
+            <button type="button" id="homebutt"><a href="covidvaccine.html" id="home">Home</button>
+        </td>
+        </tr>
+        </table>
+        <img src="">
+        <p><b>Vaccines are safe and save lives.The rapid
+            development of COVID-19 vaccines has people asking questions.
+            Here is an overview of the reactions and side effects you can expect.
+        </b></p>
+       <p> Millions of people worldwide are hoping <u style="color:blue;">to receive 
+           a vaccination against the coronavirus.</u>
+           in the near future. Vaccines have been found safe and <u style="color:blue;">
+               approved by health authorities in many countries.
+           </u></p>
+
+           <p>At the same time, many people are ambivalent because,
+               while they want to protect themselves against infection, they 
+               fear possible side effects from vaccination. They have doubts 
+               as to whether the vaccines are actually safe,given the rapid 
+               pace of development, and whether possible side effects have been 
+               adequately studied.
+           </p>
+    <div id="newsbox">
+        <table width="100%">
+            <tr>
+            <td width="10%"><img src="commercial_2520.jpg" id="newslogo"></td>
+            <td width="80%"><h1 style="text-align: justify;">APW News</h1></td>
+        <td width="10%"><img src="twit.png" alt="twitter" id="twit"></td>
+        </tr>
+        </table>
+        <h2>Would you be wiling to get vaccinated against
+            COVID-19? Here is what some Berliners had to say.
+        </h2>
+        <iframe width="100%" height="200px" src="https://youtu.be/GOq8-FR8s1E" id="frame"></iframe>
+        <p>8:07 PM . Dec 17,2020</p>
+        <hr>
+        <p>♡ 139  ⚡ see latest COVID-19 information</p>
+
+    </div>
+    <p>so what vaccine reactions are normal,  and what side effects 
+        are possible?</p>
+    <h4>Normal vaccination reactions</h4>
+    <p>It is normal to have certain reactions after a vaccination: There may be redness, swelling or pain around the injection site. 
+        Fatigue, fever, headache and aching limbs are also not uncommon in the first three days after vaccination.</p>
+
+ <p>These normal vaccine reactions are usually mild and 
+     subside after a few days. They show that the vaccine is working, because it stimulates the immune system and the body forms
+      antibodies against the infection that is only "feigned" by the vaccination. </p>
+
+    <center>
+      <img src="vaccine1.jpg" alt="vaccine" style="width:30%;height: 150px; border: 5px solid black;" >
+    </center>
+
+    <p>
+        There are many types of vaccines:
+        <ul>
+            <li>The Biontech-Pfizer vaccine</li>
+            <li>The moderna vaccine</li>
+            <li>The AstraZeneca Vaccine</li>
+            <li>The Russian Spuntnik V vaccine</li>
+        </ul>
+    </p>
+    </body>
+    <script type="text/javascript">
+    function myfunction(){
+        var d=new Date();
+        
+        document.getElementById("showDate").innerHTML= d;
+
+    }
+       
+
+
+   </script>
+
+      </html>

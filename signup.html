@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+
+       
+        fieldset
+        {
+            border:3px solid black;
+            
+        }
+        body{
+            font-family: 'Anaheim';
+            font-size: 1.2em;
+            background-color: lightgoldenrodyellow;
+            
+        }
+        #loginpage{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 25px;
+            padding-right: 25px;
+           
+        }
+        #login{
+            width:170px;
+            border:2px solid black;
+        }
+       #forgotpassword:hover{
+        color:red;
+       }
+       #logo{
+                width:50px;
+                height:50px;
+                border-radius: 50%;
+            }
+        #first{
+            text-align: justify;
+        }
+
+        </style>
+
+    </head>
+
+    <body>
+        <table width="100%" id="first">
+            <tr>
+                <td width="20%"><img src="tusn.jfif" id="logo" alt="logo"></td>
+                <td width="50%" style="text-align: justify;"><h1 id="heading" style="font-size: 19px;">COVID-19 VACCINE</h1></td>
+                <td width="30%"><button id="Home" style="width:100px;height: 40px;"><a href="covidvaccine.html" id="Hometag">Home</a></button></td>
+            </tr>
+        </table>
+        <hr style="height: 2px;background-color:black;">
+        <div id="loginpage">
+            <center>
+            <form>
+                <fieldset>
+                    <div id="inside">
+                    <h2 style="color:blue"><marquee direction="right">Sign Up</marquee></h2>
+                    <label for="Name" id="Name-add">Name: </label>
+                    <input type="text" id="Name" placeholder="enter your Name" required><br><br>
+                    <label for="Email" id="Email-add">Email: </label>
+                    <input type="text" id="Email" placeholder="enter your Email" required><br><br>
+                    <label for="password" id="password-add">Password:</label>
+                    <input type="password" id="password" placeholder="enter your Password"><br><br>
+                    <label for="Confirm-password" id="Confirm-password">Confirm Password:</label>
+                    <input type="password" id="Confirm-password" placeholder="Confirm Password">
+                   <br><br><button id="login">Sign Up</button>
+                   <br>
+                  
+                   <p>Already have a Account?click here to <a href="Login.html">Login</a></p>
+                   
+
+        </div>
+                </fieldset>
+
+            </form>
+        </center>
+        </div>
+    
+    </body>
+    
+    <script type="text/javascript">
+        document.getElementById('forgotpassword').onclick=function(){
+            prompt("Enter your email:");
+        }
+    
+    </script>
+</html
